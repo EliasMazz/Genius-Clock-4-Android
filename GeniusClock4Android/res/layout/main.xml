@@ -11,14 +11,18 @@
         android:orientation="horizontal" >
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="160dp"
             android:layout_height="match_parent"
             android:layout_weight="0.66"
             android:onClick="Btn1"
             android:text="Btn 1"
              />
+        
+       
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="141dp"
             android:layout_height="match_parent"
             android:layout_weight="1.87"
@@ -36,6 +40,7 @@
         android:orientation="horizontal" >
 
        <Button
+           android:id="@+id/btn3"
            android:layout_width="164dp"
            android:layout_height="248dp"
            android:onClick="Btn3"
@@ -43,6 +48,7 @@
             />
        
         <Button
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="247dp"
             android:onClick="Btn4" 
