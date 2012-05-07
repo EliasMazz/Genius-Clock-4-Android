@@ -4,39 +4,31 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="240dp"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/btn1"
-            android:layout_width="160dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.66"
-            android:onClick="Btn1"
-            android:text="Btn 1"
-             />
-        
-       
-
-        <Button
-            android:id="@+id/btn2"
-            android:layout_width="141dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1.87"
-            android:onClick="Btn2" 
-            android:text="Btn 2"
-            
-            />
+    	<LinearLayout
+    		xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent" android:layout_height="240dp"
+    		android:orientation="horizontal">
 
-    </LinearLayout>
-      
+
+    		<Button android:id="@+id/btn1" android:layout_width="160dp"
+    			android:layout_height="fill_parent" android:layout_weight="0.66"
+    			android:onClick="Btn1" android:text="Btn 1" />
+
+
+
+
+    		<Button android:id="@+id/btn2" android:layout_width="141dp"
+    			android:layout_height="fill_parent" android:layout_weight="1.87"
+    			android:onClick="Btn2" android:text="Btn 2" />
+
+    	</LinearLayout>
+
+
+
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
+        android:layout_height="fill_parent"
         android:orientation="horizontal" >
 
        <Button
@@ -49,7 +41,7 @@
        
         <Button
             android:id="@+id/btn4"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="247dp"
             android:onClick="Btn4" 
             android:text="Btn 4"
