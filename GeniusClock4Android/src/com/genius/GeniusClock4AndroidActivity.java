@@ -29,6 +29,7 @@ public class GeniusClock4AndroidActivity extends Activity {
 	private Iterator<Integer> iter;
 	/**
 	 * Um contador auxiliar para poder criar uma sequencia incremental
+	 * teste git
 	 * 
 	 */
 	private int countAux = 1;
